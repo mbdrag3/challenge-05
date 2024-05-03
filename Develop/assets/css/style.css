@@ -9,7 +9,13 @@ body {
 }
 
 .task-card {
-  margin: 0 auto;
+  margin: 10px;
+  background-color: grey;
+}
+
+.task-card:active {
+  background-color: yellow;
+  z-index: 999;
 }
 
 .task-card:hover {
@@ -25,3 +31,21 @@ body {
   background-color: whitesmoke;
 }
 
+.task-delete:hover {
+  color: white;
+  background-color: red;
+}
+
+.taskTitleText {
+  background-color: white;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+/* 
+#in-progress-cards {
+  width: 100%;
+  height: 200px;
+  border: solid 1px black;
+}
+*/
